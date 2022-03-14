@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.logo h2 {
+  margin-left: 1rem;
+  font-size: 22px;
+  color: #11468f;
+}
+
+.nav-link {
+  width: 600px;
+}
+
+.nav-link ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link ul li {
+  list-style: none;
+}
+
+.nav-link ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.bt {
+  background-color: #11468f;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  width: 150px;
+  margin-right: 2rem;
+  border-radius: 10px;
+}
+
+.container {
+  background-image: url("covid-19-healthcare-workers-pandemic-concept-lovely-caring-asian-doctor-female-nurse-scrubs-showing-heart-gesture-smiling-taking-care-patients-with-love-white-background.jpg");
+  height: 550px;
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.kiri {
+  height: 400px;
+  width: 650px;
+}
+
+.kanan {
+  height: 400px;
+  width: 450px;
+  text-align: end;
+  padding-top: 5rem;
+  box-sizing: border-box;
+}
+
+.p1 {
+  color: #18a6a8;
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+.p2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #11468f;
+}
+
+.btn-1 {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #11468f;
+  color: white;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.container2 {
+  background-image: url("index.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 70%;
+  margin-top: -90px;
+  margin-left: 15%;
+  border-radius: 10px;
+  padding-bottom: 3rem;
+}
+
+.box2 {
+  display: flex;
+  gap: 5rem;
+  margin-left: 60px;
+}
+
+.box1 {
+  padding-top: 50px;
+  margin-left: 60px;
+}
+
+.box1 p {
+  color: rgba(24, 166, 168, 1);
+}
+
+.box1 h1 {
+  padding-top: 20px;
+  color: rgba(17, 70, 143, 1);
+}
+
+.kotak1 {
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.kotak1 h3 {
+  padding-top: 40px;
+}
+
+.btn-2 {
+  margin-left: 60px;
+  margin-top: 20px;
+  color: white;
+  border: 1px solid #11468f;
+  background-color: #f0f0f0;
+  color: #11468f;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.btn-2:hover {
+  background-color: #11468f;
+  color: white;
+  transition: 0.5s;
+}
+
+/* batas rafli */
+/* batas nova */
+
+.container4 {
+  margin-top: 5rem;
+}
+
+.container4 p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #18a6a8;
+}
+
+.container4 h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 30px;
+  color: #11468f;
+}
+
+.container5 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-isi {
+  width: 300px;
+  height: 450px;
+}
+
+.main1 {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  background-color: white;
+  position: relative;
+  box-shadow: 1px 1px 10px rgb(175, 175, 175);
+}
+
+.up-layers {
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.up-layers h3 {
+  margin-bottom: 1.5rem;
+}
+
+.up-layers p {
+  margin-bottom: 1.5rem;
+}
+
+.layers-btn {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 100%;
+  padding: 15px;
+}
