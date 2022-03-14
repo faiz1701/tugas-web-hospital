@@ -43,6 +43,11 @@
   text-decoration: none;
 }
 
+.nav-link ul li a:hover {
+  color: #11468f;
+  text-shadow: 1px 1px 30px #11468f;
+}
+
 .bt {
   background-color: #11468f;
   border: none;
@@ -51,6 +56,11 @@
   width: 150px;
   margin-right: 2rem;
   border-radius: 10px;
+}
+
+.bt:hover {
+  box-shadow: 1px 1px 20px #11468f;
+  transition: 0.5s;
 }
 
 .container {
@@ -171,7 +181,7 @@
 
 .container4 h2 {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-size: 30px;
   color: #11468f;
 }
