@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.kontainer {
+  background-color: aquamarine;
+}
+
+.kartu-kata {
+  width: 290px;
+  height: 250px;
+  background-color: bisque;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.kata p {
+  color: #18a6a8;
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+}
+
+.kata h3 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.atas {
+  background-color: rgb(73, 31, 189);
+  display: flex;
+  justify-content: space-around;
+}
+
+.bawah {
+  background-color: blueviolet;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around;
+}

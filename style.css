@@ -64,7 +64,7 @@
 }
 
 .container {
-  background-image: url("covid-19-healthcare-workers-pandemic-concept-lovely-caring-asian-doctor-female-nurse-scrubs-showing-heart-gesture-smiling-taking-care-patients-with-love-white-background.jpg");
+  background-image: url("img/covid-19-healthcare-workers-pandemic-concept-lovely-caring-asian-doctor-female-nurse-scrubs-showing-heart-gesture-smiling-taking-care-patients-with-love-white-background.jpg");
   height: 550px;
   background-size: 100% 600px;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@
 }
 
 .container2 {
-  background-image: url("index.jpg");
+  background-image: url("img/index.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -229,6 +229,53 @@
 
 /* batas nova */
 /* batas anggara */
+
+.kontainer {
+  /* background-color: aquamarine; */
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.kartu-kata {
+  width: 300px;
+  height: 270px;
+  /* background-color: bisque; */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.kata p {
+  color: #18a6a8;
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+}
+
+.kata h3 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.atas {
+  /* background-color: rgb(73, 31, 189); */
+  display: flex;
+  justify-content: space-around;
+}
+
+.bawah {
+  /* background-color: blueviolet; */
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around;
+}
+
+.kartu p {
+  position: relative;
+  top: 30px;
+}
+
+.kartu span {
+  position: relative;
+}
 
 /* batas anggara */
 /* batas nova2 */
