@@ -26,7 +26,7 @@
 }
 
 .nav-link {
-  width: 600px;
+  width: 450px;
 }
 
 .nav-link ul {
@@ -459,7 +459,7 @@ button {
 .footer {
   padding-top: 5rem;
   box-sizing: border-box;
-  height: 400px;
+  height: 200px;
   background-color: #11468f;
 }
 
@@ -479,4 +479,9 @@ button {
   color: white;
 }
 
+.media {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
 /*  */
