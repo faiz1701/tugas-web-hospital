@@ -64,7 +64,7 @@
 }
 
 .container {
-  background-image: url("img/covid-19-healthcare-workers-pandemic-concept-lovely-caring-asian-doctor-female-nurse-scrubs-showing-heart-gesture-smiling-taking-care-patients-with-love-white-background.jpg");
+  background-image: url("img/top.jpg");
   height: 550px;
   background-size: 100% 600px;
   background-repeat: no-repeat;
@@ -192,14 +192,18 @@
 }
 
 .container-isi {
-  width: 300px;
+  width: 350px;
   height: 450px;
+}
+
+.container-isi img {
+  width: 350px;
+  height: 250px;
 }
 
 .main1 {
   width: 270px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   margin-top: -50px;
   background-color: white;
   position: relative;
@@ -475,6 +479,7 @@ button {
 
 .number {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   color: white;
 }
